@@ -18,6 +18,19 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        /* Prevent horizontal scrolling on small viewports */
+        html, body {
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        /* Make images responsive */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
         body {
             min-height: 100vh;
             display: flex;
