@@ -14,6 +14,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
+        html {
+            overflow-x: hidden;
+        }
+
         * {
             font-family: 'Poppins', sans-serif;
         }
@@ -69,12 +73,12 @@
 </head>
 
 <body
-    class="min-h-screen w-screen overflow-x-hidden overflow-y-hidden bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] flex justify-center items-center relative">
+    class="min-h-screen w-full overflow-x-hidden overflow-y-hidden bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] flex justify-center items-center relative">
 
     <div
         class="relative z-10 bg-white/5 backdrop-blur-2xl border border-white/10 shadow-2xl rounded-3xl p-10 w-11/12 max-w-sm text-center text-white">
         <!-- Replace the src URL with your actual image link or local file -->
-        <div class="mb-4 flex justify-center">
+        <div class="mb-4 flex justify-center hover:scale-110 transition-transform duration-300">
 
             <a href="https://raj9113.github.io/nitishconstructionservices/">
                 <img src="./logo.png" alt="Profile Picture"
@@ -88,12 +92,12 @@
 
         <div class="flex flex-col gap-4">
             <!-- target="_blank" ensures it opens in a new tab -->
-            <a href="https://facebook.com/yourprofile" target="_blank"
+            <a href="https://www.facebook.com/share/1FrJw43hFp/" target="_blank"
                 class="social-btn no-underline text-white bg-white/5 border border-white/15 hover:bg-white/15 hover:-translate-y-1 hover:shadow-lg hover:border-white/40 px-5 py-3.5 rounded-xl flex items-center justify-center gap-3 text-base font-normal transition-all duration-300">
                 <i class="fab fa-facebook-f"></i> Facebook
             </a>
 
-            <a href="https://instagram.com/yourprofile" target="_blank"
+            <a href="https://instagram.com/nitishconstruction.services" target="_blank"
                 class="social-btn no-underline text-white bg-white/5 border border-white/15 hover:bg-white/15 hover:-translate-y-1 hover:shadow-lg hover:border-white/40 px-5 py-3.5 rounded-xl flex items-center justify-center gap-3 text-base font-normal transition-all duration-300">
                 <i class="fab fa-instagram"></i> Instagram
             </a>
@@ -105,13 +109,13 @@
             </a>
 
             <!-- tel: prompts the device phone dialer -->
-            <a href="tel:+910000000000"
+            <a href="tel:+919508047136"
                 class="social-btn no-underline text-white bg-white/5 border border-white/15 hover:bg-white/15 hover:-translate-y-1 hover:shadow-lg hover:border-white/40 px-5 py-3.5 rounded-xl flex items-center justify-center gap-3 text-base font-normal transition-all duration-300">
                 <i class="fas fa-phone"></i> Contact
             </a>
 
             <!-- mailto: prompts the default email client -->
-            <a href="mailto:your.email@gmail.com"
+            <a href="mailto:nitishconstructionservices@gmail.com"
                 class="social-btn no-underline text-white bg-white/5 border border-white/15 hover:bg-white/15 hover:-translate-y-1 hover:shadow-lg hover:border-white/40 px-5 py-3.5 rounded-xl flex items-center justify-center gap-3 text-base font-normal transition-all duration-300">
                 <i class="fas fa-envelope"></i> Email
             </a>
